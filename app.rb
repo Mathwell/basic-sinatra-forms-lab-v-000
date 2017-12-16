@@ -1,7 +1,7 @@
 require 'sinatra/base'
 
 class App < Sinatra::Base
-  
+
   get "/team" do
       @name = params[:name]
       #{}"Hello #{@user_name}!"
@@ -11,6 +11,6 @@ class App < Sinatra::Base
     post "/team" do
       erb :newteam
     end
-    
+
 
 end
