@@ -3,9 +3,9 @@ require 'sinatra/base'
 class App < Sinatra::Base
 
   get "/newteam" do
-      @name = params[:name]
+      #@name = params[:name]
       #{}"Hello #{@user_name}!"
-      erb :team
+      erb :newteam
     end
 
     post "/newteam" do
