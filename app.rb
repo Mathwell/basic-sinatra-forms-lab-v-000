@@ -4,7 +4,7 @@ class App < Sinatra::Base
   get "/newteam" do
       #@user_name = params[:name]
       #{}"Hello #{@user_name}!"
-      erb: newteam
+      erb :newteam
     end
 
 end
